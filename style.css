@@ -1,0 +1,556 @@
+html
+{}
+
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: rgb(255,255,255)
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  p {
+    margin:5%;
+  }
+
+
+
+
+
+
+
+
+.box1 {
+  height: 20%;
+  width: 25%;
+  position: absolute;
+  filter: opacity(100);
+  left: 5%;
+  top: 5%;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 110px;
+  color: #659934;
+
+}
+
+
+#aut1 {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: right;
+  color: rgb(50,50,50);
+}
+
+
+.box2 {
+  height: 20%;
+  width: 25%;
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 110px;
+  color: #C19042;
+}
+
+#aut2{
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: right;
+  color: rgb(50,50,50);
+}
+
+
+
+
+/*effetto hover gradiente*/
+
+.under1 {
+    background-image: linear-gradient(120deg, #bdf9d1 5%, #bbe3f2 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.15em;
+    background-position: 0 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: opacity(100%);
+}
+
+.under1:hover {
+  transition: background-size 0.25s ease-in;
+  background-size: 100% 100%;
+}
+
+
+
+.under {
+    background-image: linear-gradient(120deg, #bdf9d1 5%, #bbe3f2 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.15em;
+    background-position: 0 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.under:hover {
+  transition: background-size 0.25s ease-in;
+  background-size: 100% 100%;
+}
+
+
+/*fine hover gradiente*/
+
+
+
+
+
+
+
+
+.box4 {
+  height: 100%;
+  width: 23%;
+  position: fixed;
+  left: 75%;
+  top: 5%;
+  background-color: rgb(255,255,255);
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  color: rgb(201,169,177);
+}
+
+
+.box5 {
+  height: 40%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 105%;
+  background-color: rgb(255,255,200);
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  filter: grayscale(0%);
+}
+
+.box6 {
+  height: 40%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 150%;
+  background-color: rgb(255,255,200);
+  background-image: url(3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  filter: grayscale(0%);
+}
+
+
+
+.box7 {
+  height: 40%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 195%;
+  background-color: rgb(255,255,200);
+  background-image: url(4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  filter: grayscale(0%);
+}
+
+
+.box5:hover {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.box6:hover {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.box7 span {
+  display: none;
+}
+
+.box7 span:hover{
+  display: block;
+  color: rgb(50,50,50);
+}
+
+.box7:hover {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+
+
+/* PAGINA PERSONALE*/
+
+.boxpersonal{
+  height: 80%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  background-color: rgb(255,255,255);
+  padding: 10px;
+}
+
+
+
+#est {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+}
+
+.underline1 {
+    background-image: linear-gradient(120deg, #bba494 0%, #1d4463 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    padding: 10px;
+}
+
+
+
+
+
+.boxfinalpersonal {
+  height: 10%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 375%;
+  background-color: rgb(255,255,255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE ELEMENTI PAGINA PERSONALE*/
+
+/* PAGINA ACCADEMICA*/
+
+
+.boxacademic {
+  height: 80%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  background-color: rgb(255,255,255);
+  padding: 10px;
+}
+
+
+
+
+
+#et {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.underline2 {
+    background-image: linear-gradient(120deg, #949391 0%, #183f08 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    padding: 10px;
+}
+
+
+
+
+.boxfinalacademic{
+  height: 10%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 660%;
+  background-color: rgb(255,255,255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE ELEMENTI PAGINA ACCADEMICA*/
+
+
+/* ELEMENTI COMUNI ACC E PERS*/
+
+
+#back {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: 11px;
+  color: #000000;
+}
+
+
+#vita {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 13px;
+  color: #a7a7a7a7;
+  line-height: 18px;
+}
+
+
+
+#descrizione {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #000000;
+  line-height: 18px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.img:hover {
+  transform: scale(1);
+}
+
+
+.linkinterno {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkinterno:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+
+div.ex1 {
+    background-color: rgb(255,255,255);
+    width: 100%;
+    height: 200%;
+    overflow: visible;
+    margin-top: 25px;
+}
+
+.img2 {
+  width: 49%;
+  height: auto;
+}
+
+
+.img3 {
+  width: 32%;
+  height: auto;
+}
+
+.img4 {
+  width: 24%;
+  height: auto;
+}
+
+
+.box4plus {
+  height: 100%;
+  width: 23%;
+  position: fixed;
+  left: 75%;
+  top: 5%;
+  background-color: rgb(255,255,255);
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  color: rgb(201,169,177);
+}
+
+
+/* FINE ELEMENTI COMUNI ACC E PERS*/
+
+
+.boxfinal {
+  height: 10%;
+  width: 65%;
+  position: absolute;
+  left: 5%;
+  top: 238%;
+  background-color: rgb(255,255,255);
+}
+
+
+
+
+
+
+.boxback {
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  background-color: rgb(255,255,255);
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  left: 15%;
+  top: 5%;
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: 11px;
+}
+
+.boxback:hover {
+  filter: grayscale(50%);
+  transition: 0.5s;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    overflow: hidden;
+
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: right;
+}
+
+#footer {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: rgb(168,122,125);
+  line-height: 14px;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#demo {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: rgb(168,122,125);
+  line-height: 14px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#aut {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #513a3d;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+  .box1, .box2 {
+    left: 25%;
+
+  }
+
+  .box4 {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 80%;
+    text-align: center;
+
+  }
+
+  .box5 {
+    top: 140%;
+    width: 90%;
+  }
+
+  .box6 {
+    top: 185%;
+    width: 90%;
+  }
+
+   .box7 {
+    top: 230%;
+    width: 90%;
+  }
+
+  .boxfinal {
+    top: 275%;
+  }
+
+  .boxfinalacademic, .boxfinalpersonal {
+    display:none;
+  }
+
+  .boxacademic, .boxpersonal {
+    width: 90%;
+  }
+
+  .box4plus {
+    display: none;
+  }
+
+  .boxback {
+    width: 90%;
+    left: 5%;
+  }
+}
